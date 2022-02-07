@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    oh
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th>id</th>
+      <th>nama</th>
+      <th>tgl lahir</th>
+    </tr>
+    <tr>
+      <td>
+        <%= data[0].id %>
+      </td>
+      <td>
+        <%= data[0].nama %>
+      </td>
+      <td>
+        <%= data[0].tgl_lahir %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= data[1].id %>
+      </td>
+      <td>
+        <%= data[1].nama %>
+      </td>
+      <td>
+        <%= data[1].tgl_lahir %>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
